@@ -1,0 +1,34 @@
+.generalBlock {
+    width: 500px;
+    margin: 100px auto;
+    background-color: #879d6a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+.generalColum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    margin: 15px;
+}
+button {
+    margin-bottom: 30px;
+    color: #131212;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+input {
+    width: 350px;
+    height: 35px;
+    text-align: center;
+}
