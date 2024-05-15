@@ -15,6 +15,5 @@ export const postValidator = Joi.object({
         .messages({
             "number.min": "1 is a minimum value",
             "number.max": "10 is a maximum value",
-            // "number.precision": "Required field"
         })
 })
